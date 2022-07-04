@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title>Sign-Up Form</title>
+    <link href = "styles.css" rel = "stylesheet">
+    <link href = "https://fonts.googleapis.com/css2?family=Roboto+Condensed" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body>
+    <div class = "page-container">
+        <div class = "left-section">
+            <img src = "./images/Court.jpg">
+            <div class = "overhead-icon"> 
+                <h1>Odin Project</h1> 
+            </div>
+            <div class = "credit">
+               <p>Photo by <a href="https://unsplash.com/@qixna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">qi xna</a> on <a href="https://unsplash.com/s/photos/basketball?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+            </div> 
+        </div> 
+        <div class = "right-section">
+            <div class = "intro">
+                  <p>Are you a Basketball enthusiasts? Are you looking to test your skills and compete against others? Sign up today, to join our exclusive ballers club, which connects local ballers with each other, provides exclusive deals on hot gear, and shares news on upcoming basketball leagues and tournaments.</p>
+                  <p>For the love of basketball, sign up today!</p>
+            </div>
+            <form action = "#" method = "push">
+                <legend>Let's Do This!</legend>
+                
+                <section class = "name-input">
+                    <div class = "field"> 
+                        <label for = "first-name">First Name:</label>
+                        <input type = "text" id = "first-name" name = "first-name">
+                    </div>  
+                
+                    <div class = "field">
+                        <label for = "last-name">Last Name:</label>
+                        <input type = "text" id = "last-name" name = "last-name">
+                    </div>
+                </section> 
+                
+                <section class = "contact-info">
+                    <div class = "field">
+                        <label for = "email-input">Email:</label>
+                        <input type = "email" id = "email-input" name = "email">
+                    </div>
+                
+                    <div class = "field">
+                        <label for = "number-input">Phone Number:</label>
+                        <input type = "tel" id = "number-input" name = "number">
+                    </div> 
+                </section> 
+                
+                
+                <section class = "passwords">
+                    <div class = "field">
+                        <label for ="password-input">Password</label>
+                        <input type = "password" id = "password-input" name = "password">
+                    </div>
+                
+                    <div class = "field">
+                        <label for = "confirm-input">Confirm Password</label>
+                        <input type = "password" id = "confirm-input" name = "confirm">
+                    </div>
+                </section> 
+                
+                <button type = "submit">Create Account</button>
+            </form> 
+            <p id = "login-text">Already have an account? <a href = "#">Log In</a></p>
+        </div>
+    </div>  
+</body>
+</html> 

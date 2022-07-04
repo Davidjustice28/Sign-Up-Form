@@ -1,0 +1,100 @@
+:root {
+      font-family: "Roboto Condensed";
+ } 
+
+.page-container {
+      display:flex;
+}
+
+.left-section {
+
+}
+
+.left-section img{
+      position:relative;
+      width:40vw;
+      height:100%;
+}
+
+.overhead-icon {
+      position:absolute;
+      width:40vw;
+      bottom:40%;
+      color:white;
+      background-color:black;
+      opacity:.5;
+      text-align:center;
+      
+} 
+
+.credit {
+      position:absolute;
+      top:825px;
+      color:white;
+      left:150px;
+      font-weight:bold;
+} 
+ 
+.right-section {
+      background-color:#ebe8e8;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content: space-evenly;
+}   
+
+.intro {
+      text-align:left;
+      font-size:23px;
+      font-weight:bold;
+      width:90%;
+      height:30%;
+} 
+
+form {
+      position:relative;
+      background-color:white;
+      height:33%;
+      width:100%;
+      bottom:25px;     
+}
+
+.field {
+      display:flex;
+      flex-direction:column;
+      gap:5px;
+} 
+ 
+section {
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      gap:10px;
+}  
+
+button {
+      border:2px solid black;
+      font-size:20px;
+      margin-left:250px;
+      margin-top:15px;
+      background-color:#666666;
+} 
+
+#login-text {
+      position:relative;
+      top:50px;
+} 
+
+legend {
+      margin-left:auto;
+      margin-right:auto; 
+      margin-top:5px;
+      margin-bottom:10px;
+      font-weight:bold;
+      background-color:black;
+      color:white;
+} 
+
+label {
+      font-weight:bold;
+} 
