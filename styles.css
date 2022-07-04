@@ -17,14 +17,25 @@
 }
 
 .overhead-icon {
+      display:flex;
       position:absolute;
       width:40vw;
       bottom:40%;
       color:white;
       background-color:black;
       opacity:.5;
-      text-align:center;
+      padding-top:10px;
+      padding-bottom:10px;
       
+
+      
+} 
+
+.overhead-icon img {
+      height:75px;
+      width:auto;
+      margin-left:115px;
+      margin-right:10px;
 } 
 
 .credit {
@@ -56,7 +67,8 @@ form {
       background-color:white;
       height:33%;
       width:100%;
-      bottom:25px;     
+      bottom:25px; 
+      box-shadow:0 2px 4px gray;    
 }
 
 .field {
@@ -93,8 +105,22 @@ legend {
       font-weight:bold;
       background-color:black;
       color:white;
+      border:2px solid black;
 } 
 
 label {
       font-weight:bold;
+} 
+
+#password-input + small {
+      color:red;
+} 
+
+button:active {
+      background-color:black;
+      
+} 
+
+.bball{
+      text-decoration:underline;
 } 
