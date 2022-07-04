@@ -5,7 +5,5 @@ We were given a design with a general layout we were suppose to follow, however 
 The form requires users to provide the following information:
 
 - First & Last name
-- Age
 - Email address
-- How many years they’ve been playing
-- Favorite NBA team
+- Create & Confirm password
